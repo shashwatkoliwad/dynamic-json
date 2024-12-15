@@ -21,13 +21,13 @@ An application to render a form based on the given json, it uses antd to render 
    cd dynamic-json-form-builder
 
 
-npm install
-# OR
-yarn install
+`npm install`
+or
+`yarn install`
 
-npm start
-# OR
-yarn start
+`npm start`
+or
+`yarn start`
 
 ### **Example json file**
 ```
