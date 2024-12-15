@@ -1,0 +1,65 @@
+[
+  {
+    "type": "text",
+    "name": "username",
+    "label": "Username",
+    "rules": [{ "required": true, "message": "Username is required!" }],
+    "placeholder": "Enter your username"
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "label": "Email",
+    "rules": [{ "required": true, "message": "Email is required!" }]
+  },
+  {
+    "type": "password",
+    "name": "password",
+    "label": "Password",
+    "rules": [{ "required": true, "message": "Password is required!" }]
+  },
+  {
+    "type": "select",
+    "name": "gender",
+    "label": "Gender",
+    "options": [
+      { "label": "Male", "value": "male" },
+      { "label": "Female", "value": "female" }
+    ],
+    "rules": [{ "required": true, "message": "Please select your gender!" }]
+  },
+  {
+    "type": "checkbox",
+    "name": "agreement",
+    "label": "I agree to terms and conditions",
+    "valuePropName": "checked",
+    "rules": [
+      { "required": true, "message": "You must agree before submitting!" }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": "subscription",
+    "label": "Subscription Plan",
+    "options": [
+      { "label": "Free", "value": "free" },
+      { "label": "Pro", "value": "pro" }
+    ]
+  },
+  {
+    "type": "datepicker",
+    "name": "dob",
+    "label": "Date of Birth",
+    "rules": [
+      { "required": true, "message": "Please select your date of birth!" }
+    ]
+  },
+  {
+    "type": "file",
+    "name": "profile",
+    "label": "Profile Picture",
+    "rules": [
+      { "required": true, "message": "Please upload your profile picture!" }
+    ]
+  }
+]
